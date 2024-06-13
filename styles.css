@@ -1,0 +1,74 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full screen sections */
+.full-screen {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+#home {
+    background-image: url('your-home-background.jpg'); /* Replace with your image */
+}
+
+#portfolio {
+    background-image: url('your-portfolio-background.jpg'); /* Replace with your image */
+}
+
+#contact {
+    background-image: url('your-contact-background.jpg'); /* Replace with your image */
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f0a500;
+}
+
+.content {
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Georgia', serif;
+    font-size: 1.1rem;
+}
